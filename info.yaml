@@ -1,20 +1,14 @@
 library: LELO_EX_SKY130A
 cell: LELO_EX
-# Your name
-author: Anonymous
-# Your github username
-github: analogicus
-# Something funny and descriptive
-tagline: The answer is 42
-# Your email, if you so wish
-email: anon@anon.com
+author: nimakolahi
+github: nimakolahi
+tagline: Skywater 130 nm tutorial
+email: nimakolahi@gmail.com
 # Your github site, usually <github username>.github.io
-url: analogicus.github.io
+url: github.com/nimakolahi
 doc:
-  # Make docs
-  #libraries:
-  #   <library>:
-  #       - <cell>
-  #       - <cell>
+  libraries:
+     LELO_EX_SKY130A:
+         - LELO_EX
 sim:
   # <simdir>: command
