@@ -1,2 +1,4 @@
 source ../tech/magic/.magicrc
 addpath ../design/LELO_EX_SKY130A
+addpath ../design/LELO_ATR_SKY130A
+addpath ../design/LELO_TR_SKY130A
