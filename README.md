@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# lelo_ex_sky130a
-Example Skywater
-=======
-
 [![GDS](../../actions/workflows/gds.yaml/badge.svg)](../../actions/workflows/gds.yaml)
 [![DRC](../../actions/workflows/drc.yaml/badge.svg)](../../actions/workflows/drc.yaml)
 [![LVS](../../actions/workflows/lvs.yaml/badge.svg)](../../actions/workflows/lvs.yaml)
@@ -57,4 +52,3 @@ n.mahmoudi
 | Technology          |         | Skywater 130 nm |         |       |
 | AVDD                | 1.7    | 1.8           | 1.9    | V     |
 | Temperature         | -40     | 27            | 125     | C     |
->>>>>>> 204316c (Made LELO_EX_SKY130A)
