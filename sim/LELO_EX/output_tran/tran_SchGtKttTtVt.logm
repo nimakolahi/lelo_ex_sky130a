@@ -1,43 +1,143 @@
-Warning from checkvalid: vector i(v0) is not available or has zero length.
-Error: RHS "-i(v0)" invalid
-Error: measure limited to tran, dc, sp, or ac analysis
-Error: measure limited to tran, dc, sp, or ac analysis
-Error: incomplete or empty netlist
-       or no ".plot", ".print", or ".fourier" lines in batch mode;
-no simulations run!
+Note: Optran step size set to 4.000000e-11, (stepsize = finaltime / 50).
 
-Note: No compatibility mode selected!
+Note: Compatibility modes selected: hs a
 
 
 Circuit: * measure lelo_ex
 
 Loading raw data file ("tran_SchGtKttTtVt.raw") ...
 done.
-Title:  Constant values
-Name: constants
-Date: Mon Sep 15 19:53:40 UTC 2025
+Title:  *cicsimgen tran
+Name: Transient Analysis
+Date: Fri Sep 26 16:04:36  2025
 
 Here are the vectors currently active:
 
-Title: Constant values
-Name: unknown1 (constants)
-Date: Mon Sep 15 19:53:40 UTC 2025
+Title: *cicsimgen tran
+Name: tran1 (Transient Analysis)
+Date: Fri Sep 26 16:04:36  2025
 
-    boltz               : notype, complex, 1 long
-    c                   : notype, complex, 1 long
-    e                   : notype, complex, 1 long
-    echarge             : notype, complex, 1 long
-    false               : notype, complex, 1 long
-    i                   : notype, complex, 1 long
-    kelvin              : notype, complex, 1 long
-    no                  : notype, complex, 1 long
-    pi                  : notype, complex, 1 long
-    planck              : notype, complex, 1 long
-    true                : notype, complex, 1 long
-    yes                 : notype, complex, 1 long [default scale]
+    i(v0)               : current, real, 58 long
+    time                : time, real, 58 long [default scale]
+    v(ibps_5u)          : voltage, real, 58 long
 MEAS_START
- meas tran ibns_20u find ibn at=5n failed!
-
- meas tran vgs_m1 find v(ibps_5u) at=5n failed!
-
+ibns_20u            =  2.059173e-05
+vgs_m1              =  6.859839e-01
 MEAS_END
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using KLU as Direct Linear Solver
+                                *cicsimgen tran
+                                Transient Analysis  Fri Sep 26 16:04:36  2025
+--------------------------------------------------------------------------------
+Index   v(ibps_5u)      
+--------------------------------------------------------------------------------
+0	6.859846e-01	
+1	6.859840e-01	
+2	6.859839e-01	
+3	6.859840e-01	
+4	6.859839e-01	
+5	6.859840e-01	
+6	6.859839e-01	
+7	6.859840e-01	
+8	6.859839e-01	
+9	6.859840e-01	
+10	6.859839e-01	
+11	6.859840e-01	
+12	6.859839e-01	
+13	6.859840e-01	
+14	6.859839e-01	
+15	6.859840e-01	
+16	6.859839e-01	
+17	6.859840e-01	
+18	6.859839e-01	
+19	6.859840e-01	
+20	6.859839e-01	
+21	6.859840e-01	
+22	6.859839e-01	
+23	6.859840e-01	
+24	6.859839e-01	
+25	6.859840e-01	
+26	6.859839e-01	
+27	6.859840e-01	
+28	6.859839e-01	
+29	6.859840e-01	
+30	6.859839e-01	
+31	6.859840e-01	
+32	6.859839e-01	
+33	6.859840e-01	
+34	6.859839e-01	
+35	6.859840e-01	
+36	6.859839e-01	
+37	6.859840e-01	
+38	6.859839e-01	
+39	6.859840e-01	
+40	6.859839e-01	
+41	6.859840e-01	
+42	6.859839e-01	
+43	6.859840e-01	
+44	6.859839e-01	
+45	6.859840e-01	
+46	6.859839e-01	
+47	6.859840e-01	
+48	6.859839e-01	
+49	6.859840e-01	
+50	6.859839e-01	
+51	6.859840e-01	
+52	6.859839e-01	
+53	6.859840e-01	
+54	6.859839e-01	
+
+Index   v(ibps_5u)      
+--------------------------------------------------------------------------------
+55	6.859840e-01	
+56	6.859839e-01	
+57	6.859840e-01	
+
+Options:
+
+  batchmode
+  brief
+  compatibility
+* curplot	tran1
+* curplotdate	Fri Sep 26 16:04:36  2025
+* curplotname	Transient Analysis
+* curplottitle	*cicsimgen tran
+  for
+  history	10000
+  inputdir	.
++ klu
+  libs
+  ng_nomodcheck
+  ngbehavior	hsa
++ noinit
+  num_threads	8
++ opts
+  oscompiled	6
+  pdk
+* plots	( const tran1 )
+  program	ngspice
+  prompt	ngspice ! -> 
+  reading
+  rndseed	1
+  sim_status	0
+  skywaterpdk
+  sourcepath	( . /opt/eda/share/ngspice/scripts /opt/eda/share/ngspice/scripts /home/n.mahmoudi . )
+  x11lineararcs
+  xspice_enabled
+
+
+Total analysis time (seconds) = 1.12441E-05
+
+Total elapsed time (seconds) = 0.002 
+
+Total DRAM available = 31872.719 MB.
+DRAM currently available =  839.707 MB.
+Maximum ngspice program size =   21.688 MB.
+Current ngspice program size =   12.852 MB.
+
+Shared ngspice pages =   10.934 MB.
+Text (code) pages =    6.414 MB.
+Stack = 0 bytes.
+Library pages =    2.059 MB.
+

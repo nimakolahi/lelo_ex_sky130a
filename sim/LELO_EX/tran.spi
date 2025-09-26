@@ -6,7 +6,7 @@
 .include ../../../work/lpe/LELO_EX_lpe.spi
 #else
 .include ../../../work/xsch/LELO_EX.spice
-#endif 
+#endif    
  
 *-----------------------------------------------------------------
 * OPTIONS
@@ -38,8 +38,7 @@ V0  IBNS_20U 0 dc 1
 *----------------------------------------------------------------
 *.save all
 .save i(V0) v(IBPS_5U)
-
-
+  
 *----------------------------------------------------------------
 * NGSPICE control
 *----------------------------------------------------------------
@@ -50,8 +49,8 @@ set color1=black
 unset askquit
 
 optran 0 0 0 1n 1u 0
-
-
+ 
+ 
 tran 1n 10n 1p
 write
 quit
