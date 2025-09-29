@@ -14,7 +14,7 @@ SKYWATER 130nm Tutorial
 
 # How
 
-Make stuff work and then design a VFC
+Make stuff work
 
 # What
 
