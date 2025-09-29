@@ -1,0 +1,17 @@
+* NGSPICE file created from LELO_EX.ext - technology: sky130A
+
+* Replacing the lpe port list (../tech/scripts/fixlpe)
+.subckt LELO_EX IBPS_5U VSS IBNS_20U
+*.subckt LELO_EX IBPS_5U IBNS_20U VSS
+X0 IBNS_20U IBPS_5U VSS VSS sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X1 IBPS_5U IBPS_5U VSS VSS sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X2 VSS IBPS_5U IBNS_20U VSS sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X3 IBNS_20U IBPS_5U VSS VSS sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X4 IBNS_20U IBPS_5U VSS VSS sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X5 VSS IBPS_5U IBNS_20U VSS sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X6 VSS IBPS_5U IBPS_5U VSS sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X7 VSS IBPS_5U IBNS_20U VSS sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X8 IBNS_20U IBPS_5U VSS VSS sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X9 VSS IBPS_5U IBNS_20U VSS sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+.ends
+
