@@ -11,4 +11,4 @@ doc:
      LELO_EX_SKY130A:
          - LELO_EX
 sim:
-  # <simdir>: command
+   LELO_EX: make typical
