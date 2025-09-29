@@ -1,0 +1,23 @@
+
+Magic 8.3 revision 551 - Compiled on Mon Sep 15 09:43:07 PM CEST 2025.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+WARNING: RLIMIT_NOFILE is above 1024 and Tcl_Version<9 this may cause runtime issues [rlim_cur=1048576]
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "lvs/LELO_EX_spi.tcl" from command line.
+Cell LELO_EX read from path ../design/LELO_EX_SKY130A
+Cell JNWATR_NCH_4C5F0 read from path /home/n.mahmoudi/pro/aicex/ip/lelo_ex_sky130a/design/JNW_ATR_SKY130A
+Scaled magic input cell JNWATR_NCH_4C5F0 geometry by factor of 2
+Extracting JNWATR_NCH_4C5F0 into lvs/ext/JNWATR_NCH_4C5F0.ext:
+Extracting LELO_EX into lvs/ext/LELO_EX.ext:
+LELO_EX: 5 warnings
+Total of 5 warnings.
+exttospice finished.
