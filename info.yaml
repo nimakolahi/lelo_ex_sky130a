@@ -5,7 +5,7 @@ github: nimakolahi
 tagline: Skywater 130 nm tutorial
 email: nimakolahi@gmail.com
 # Your github site, usually <github username>.github.io
-url: github.com/nimakolahi
+url: nimakolahi.github.io
 doc:
   libraries:
      LELO_EX_SKY130A:
